@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <header><a href="page/about.html">Про нас</a>   <a href="../index.html">Головна сторінка</a>   <a href="./catalog_cats.html">Каталог</a></header>
+        <header><a href="page/about.php">Про нас</a>   <a href="../index.php">Головна сторінка</a>   <a href="./catalog_cats.php">Каталог</a></header>
         <main>
             <div class="left-container"></div>
             <div class="main-container">
