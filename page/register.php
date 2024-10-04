@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Login</h1>
+    <h1>Register</h1>
     <form action="../page/register.php" method="post">
         <h2>ПІБ</h2>
         <input type="text" name="username">

@@ -1,3 +1,6 @@
+<?php
+    require("./function_date/thisdate.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +11,11 @@
 </head>
 <body>
     <div class="wrapper">
-        <header><a href="page/comments.php">Коментарі</a>     <a href="page/about.php">Про нас</a>   <a href="index.php">Головна сторінка</a>   <a href="page/catalog_cats.php">Каталог</a></header>
+        <header><a href="page/comments.php">Коментарі</a>     <a href="about.php">Про нас</a>   <a href="index.php">Головна сторінка</a>   <a href="page/catalog_cats.php">Каталог</a></header>
         <main>
             <div class="left-container"></div>
             <div class="main-container">
+                <h2>Сьогодні: <?php echo thisdate(); ?></h2>
                 <h1>Вітаємо на сайті "10 смішних котів"!</h1>
                 <p>Коти — це не просто домашні улюбленці, вони справжні майстри викликати усмішку!<br> Ми зібрали для вас десятку найкумедніших котиків, які своїми витівками і незвичайною поведінкою підкорили серця мільйонів людей.</p>
                 <p>На нашому сайті ви знайдете кумедні фото, історії, відео і навіть анімації з участю цих пухнастих жартівників.</p>
@@ -24,6 +28,7 @@
         <footer>
             <p>Авторські права © 2024 Смішні коти</p>
         </footer>
+        <p></p>
     </div>
     <script src="./script/main.js"></script>
 

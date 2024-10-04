@@ -1,3 +1,6 @@
+<?php
+    require("../function_date/thisdate.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +15,7 @@
         <main>
             <div class="left-container"></div>
             <div class="main-container">
+                <h2>Сьогодні: <?php echo thisdate(); ?></h2>
                 <h1>Товстенький біло-чорний кіт</h1>
                 <img class="avatar-img" src="../img/omg_cats.png" alt="Товстенький біло-чорний кіт" width="300">
                 <p>Цей пухкенький біло-чорний кіт не тільки виділяється своїми розмірами, але й дивує всіх своїм унікальним звуком, який нагадує щось середнє між муркотінням і співом пташки. Його цікаві звуки роблять його ще більш чарівним!</p>

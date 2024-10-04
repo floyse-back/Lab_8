@@ -1,3 +1,7 @@
+<?php
+    require("../function_date/thisdate.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +12,11 @@
 </head>
 <body>
     <div class="wrapper">
-        <header><a href="page/about.php">Про нас</a>   <a href="../index.php">Головна сторінка</a>   <a href="./catalog_cats.php">Каталог</a></header>
+        <header><a href="./about.php">Про нас</a>   <a href="../index.php">Головна сторінка</a>   <a href="./catalog_cats.php">Каталог</a></header>
         <main>
             <div class="left-container"></div>
             <div class="main-container">
+                <h2>Сьогодні: <?php echo thisdate(); ?></h2>
                 <h1 style="text-align: center;">Про нас</h1>
                 <p>Ласкаво просимо на наш сайт, присвячений найсмішнішим котикам! Ми — команда ентузіастів, які просто обожнюють котів і хочуть поділитися з вами їхніми веселими пригодами.<br> Наша місія — дарувати вам усмішки і гарний настрій через фото, відео і кумедні історії про наших пухнастих друзів.</p>
         

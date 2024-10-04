@@ -1,3 +1,7 @@
+<?php
+    require("../function_date/thisdate.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +16,7 @@
         <main>
             <div class="left-container"></div>
             <div class="main-container">
+                <h2>Сьогодні: <?php echo thisdate(); ?></h2>
                 <h1>Каталог смішних котів</h1>
 
                 <ul>

@@ -1,3 +1,6 @@
+<?php
+    require("../function_date/thisdate.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +15,7 @@
         <main>
             <div class="left-container"></div>
             <div class="main-container">
+                <h2>Сьогодні: <?php echo thisdate(); ?></h2>
                 <h1>Шокований кіт</h1>
                 <img class="avatar-img" src="../img/shocked.png" alt="Шокований кіт" width="300">
                 <p>Цей кіт відомий своєю постійною здивованою мордочкою. Здається, він завжди шокований всім, що відбувається навколо нього — чи це шум пилососа, чи просто нова іграшка.</p>

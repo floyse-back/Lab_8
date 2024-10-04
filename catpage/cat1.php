@@ -1,3 +1,6 @@
+<?php
+    require("../function_date/thisdate.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +15,7 @@
         <main>
             <div class="left-container"></div>
             <div class="main-container">
+                <h2>Сьогодні: <?php echo thisdate(); ?></h2>
                 <h1>Кіт-детектив</h1>
                 <img class="avatar-img" src="../img/detective.jpg" alt="Кіт-детектив" width="300">
                 <p>Цей кіт відомий своїм невтомним полюванням на власний хвіст. Він завжди виглядає, ніби намагається розгадати таємницю, навіть якщо це просто миска з їжею.</p>
