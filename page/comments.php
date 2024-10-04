@@ -23,17 +23,10 @@
             <input type="submit">
         </form>
         <h1>Всі відгуки</h1>
-        <?php if (!empty($comments)): ?>
-            <ul>
-                <?php foreach ($comments as $comment): ?>
-                    <li><strong><?php echo htmlspecialchars($comment['username']); ?>:</strong> <?php echo htmlspecialchars($comment['comment']); ?></li>
-                <?php endforeach; ?>
-            </ul>
-        <?php else: ?>
-            <p>Відгуків поки що немає.</p>
-        <?php endif; ?>
+        <h3 class="js-content">Я</h3>
     </div>
     <form action="<?php htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post"><input type="submit" name="LogOut" value="Log Out"></form>
+    <script src="../script/comments.js"></script>
 </body>
 </html>
 <?php
